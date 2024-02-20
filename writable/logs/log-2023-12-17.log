@@ -1,0 +1,27 @@
+ERROR - 2023-12-17 03:56:10 --> mysqli_sql_exception: Column 'NAMA' cannot be null in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `an...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Antrian_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Puskesmas.php(183): App\Models\Antrian_model->saveAntrian(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Puskesmas->finishdaftarberobat()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-17 03:56:10 --> Column 'NAMA' cannot be null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `an...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Antrian_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Puskesmas.php(183): App\Models\Antrian_model->saveAntrian(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Puskesmas->finishdaftarberobat()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

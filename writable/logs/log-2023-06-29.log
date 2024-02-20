@@ -1,0 +1,1217 @@
+ERROR - 2023-06-29 02:17:28 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-06-29 02:17:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(12): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(12): App\Models\Biodata_model->getBiodata()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-06-29 02:17:34 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-06-29 02:17:34 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(12): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(12): App\Models\Biodata_model->getBiodata()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-29 03:02:16 --> Call to undefined method App\Models\Biodata_model::saveBarang
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(36): CodeIgniter\Model->__call('saveBarang', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 03:02:56 --> Call to undefined method App\Models\Biodata_model::saveBiodata
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(36): CodeIgniter\Model->__call('saveBiodata', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 03:03:12 --> Call to undefined method App\Models\Biodata_model::saveBiodata
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(36): CodeIgniter\Model->__call('saveBiodata', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 03:17:44 --> Invalid file: edit_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_view.php')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(54): view('edit_view', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 03:24:06 --> Invalid file: edit_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_view.php')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(54): view('edit_view', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 03:24:14 --> Invalid file: edit_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_view.php')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(54): view('edit_view', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->edit('2')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 08:21:30 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:21:31 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:21:32 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:22:02 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:22:03 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:22:05 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:22:06 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(14): view('sidebar_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:23:00 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:23:01 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:25:41 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:25:42 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:26:26 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:26:26 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-29 08:36:04 --> Use of undefined constant biodata - assumed 'biodata' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\puskesmas\app\Views\header_view.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 08:37:44 --> Use of undefined constant Biodata - assumed 'Biodata' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\puskesmas\app\Views\header_view.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('header_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(13): view('header_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 08:56:20 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:21 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:22 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:22 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:36 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 08:56:45 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Home.php on line 9
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Home.php(9): view('header_view', NULL)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 09:45:39 --> Cannot declare class App\Controllers\Poli_model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 09:45:41 --> Cannot declare class App\Controllers\Poli_model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 09:45:45 --> Cannot declare class App\Controllers\Poli_model because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:40:52 --> Class 'App\Controllers\Export_biodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 10:41:01 --> Class 'App\Controllers\Export_biodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 10:41:03 --> Class 'App\Controllers\Export_biodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 10:43:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Exportbiodata.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 10:43:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Exportbiodata.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 10:44:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Exportbiodata.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Exportbiodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exportbiodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 10:53:19 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:21 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:21 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:22 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:22 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:22 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:22 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:22 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:23 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:23 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:23 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:23 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:23 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 10:53:26 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 11:01:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:04:51 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:05:04 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:05:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:05:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:05:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:05:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:14:58 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setValueExplicit()
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:15:58 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setValueExplicit()
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:17:26 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValueExplicit(), 2 passed in C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php on line 116 and exactly 3 expected
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(116): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueExplicit('A1', 'NIK')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:17:29 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValueExplicit(), 2 passed in C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php on line 116 and exactly 3 expected
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(116): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueExplicit('A1', 'NIK')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:19:03 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setCellValueExplicit(), 2 passed in C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php on line 116 and exactly 3 expected
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(116): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValueExplicit('A1', 'NIK')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:19:53 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::setValueExplicit()
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 11:23:56 --> syntax error, unexpected '$nik' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('biodata/export')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('biodata/export')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:23:57 --> syntax error, unexpected '$nik' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('biodata/export')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('biodata/export')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:23:57 --> syntax error, unexpected '$nik' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('biodata/export')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('biodata/export')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:23:57 --> syntax error, unexpected '$nik' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('biodata/export')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('biodata/export')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 11:40:04 --> Class 'App\Controllers\Spreadsheet' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Poli->export()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Poli))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 14:50:36 --> Class 'App\Models\Login_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Login->login_action()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 15:55:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:55:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:56:01 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:56:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:56:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:56:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 15:58:15 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 15:59:51 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 15:59:55 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:18 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:32 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:49 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:49 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:50 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:00:54 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:01:46 --> Invalid file: edit_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_antrian_vi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('edit_antrian_vi...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(62): view('edit_antrian_vi...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->edit('1')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:01:49 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:04:22 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:04:23 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:04:28 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:05:24 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:05:31 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:11:33 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:13:50 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:16:32 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:18:41 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(80): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:19:14 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update(NULL)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:19:18 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update(NULL)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:21:46 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:21:52 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:01 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update(NULL)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:05 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update(NULL)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:35 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian/update/...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian/update/...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:36 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:39 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:40 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:40 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:40 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:41 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('antrian')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('antrian')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:24:52 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update(1)
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:26:39 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:26:42 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:27:36 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:27:37 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:27:40 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:30:44 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:30:51 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:30:53 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(82): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:34:15 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:34:18 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(81): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:36:55 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(80): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:37:20 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(80): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:37:23 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(80): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:38:47 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-06-29 16:42:52 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(83): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:44:50 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(83): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:44:53 --> Call to undefined method App\Models\Antrian_model::editAnrian
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(83): CodeIgniter\Model->__call('editAnrian', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->update('1')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-06-29 16:51:08 --> Invalid file: tambah_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_antrian_...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(30): view('tambah_antrian_...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 16:51:28 --> Invalid file: tambah_antrian_view.php
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_antrian_...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(30): view('tambah_antrian_...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-06-29 17:16:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\tambah_antrian_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(30): view('tambah_antrian_...', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:17:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\tambah_antrian_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(30): view('tambah_antrian_...', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:18:03 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\tambah_antrian_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(30): view('tambah_antrian_...', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:19:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:19:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:19:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\antrian_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Antrian_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(21): view('Antrian_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->index()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-29 17:19:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\tambah_antrian_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tambah_antrian_...', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Antrian.php(31): view('tambah_antrian_...', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->tambah()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

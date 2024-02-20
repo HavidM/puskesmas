@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-23 16:56:09 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in C:\xampp\htdocs\puskesmas\app\Controllers\Puskesmas.php on line 245
+#0 C:\xampp\htdocs\puskesmas\app\Controllers\Puskesmas.php(245): base_url('puskesmas_bioda...', Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Puskesmas->updatebiodata()
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Puskesmas))
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

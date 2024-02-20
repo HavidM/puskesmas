@@ -1,0 +1,164 @@
+ERROR - 2023-12-10 03:49:03 --> mysqli_sql_exception: Column 'PASSWORD' cannot be null in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 03:49:03 --> Column 'PASSWORD' cannot be null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-10 03:50:42 --> mysqli_sql_exception: Column 'PASSWORD' cannot be null in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 03:50:42 --> Column 'PASSWORD' cannot be null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 03:55:57 --> syntax error, unexpected '"></a>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('dokter_history_...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\DHistory.php(28): view('dokter_history_...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DHistory->index()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DHistory))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-12-10 03:56:01 --> Class 'App\Controllers\DBiodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DBiodata->index()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DBiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 03:59:26 --> Class 'App\Controllers\DBiodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DBiodata->index()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DBiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-12-10 04:15:14 --> mysqli_sql_exception: Column 'PASSWORD' cannot be null in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 04:15:14 --> Column 'PASSWORD' cannot be null
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bi...')
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\puskesmas\app\Models\Biodata_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\puskesmas\app\Controllers\Biodata.php(47): App\Models\Biodata_model->saveBiodata(Array)
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Biodata->add()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biodata))
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-10 18:41:36 --> Too few arguments to function App\Controllers\Antrian::rekdis(), 0 passed in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->rekdis()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 20:26:36 --> Too few arguments to function App\Controllers\Antrian::rekdis(), 0 passed in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->rekdis()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 20:26:45 --> Too few arguments to function App\Controllers\Antrian::rekdis(), 0 passed in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->rekdis()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 20:37:41 --> Too few arguments to function App\Controllers\Antrian::rekdis(), 0 passed in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->rekdis()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 20:40:43 --> Too few arguments to function App\Controllers\Antrian::rekdis(), 0 passed in C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Antrian->rekdis()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 23:59:29 --> Class 'App\Controllers\DBiodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DBiodata->index()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DBiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 23:59:34 --> Class 'App\Controllers\DBiodata_model' not found
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DBiodata->index()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DBiodata))
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-12-10 23:59:41 --> syntax error, unexpected '"></a>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('dokter_history_...', Array, true)
+#2 C:\xampp\htdocs\puskesmas\app\Controllers\DHistory.php(28): view('dokter_history_...', Array)
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\DHistory->index()
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DHistory))
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

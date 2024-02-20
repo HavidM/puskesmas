@@ -1,0 +1,13 @@
+ERROR - 2023-11-21 18:37:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-11-21 18:37:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\puskesmas\app\Models\Login_model.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\puskesmas\app\Controllers\Administrator.php(19): App\Models\Login_model->get_data('admin', '12345')
+#4 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Administrator->login_action()
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

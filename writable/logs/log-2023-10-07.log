@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-07 09:23:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\puskesmas\app\Views\aboutus_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('aboutus_view', Array, true)
+#4 C:\xampp\htdocs\puskesmas\app\Controllers\Aboutus.php(29): view('aboutus_view', Array)
+#5 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(935): App\Controllers\Aboutus->tambah()
+#6 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboutus))
+#7 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskesmas\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskesmas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
